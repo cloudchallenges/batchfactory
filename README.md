@@ -3,13 +3,11 @@
 A foundational scaffold for the **Challenge Title** challenge.
 Use this repository to build your implementation from scratch.
 
-📋 [View Challenge](https://hyperoot.dev/challenges) · 📖 [Read Solution Guide](https://hyperoot.dev/solutions)
+📋 [View Challenge](https://cloudchallenges.hyperoot.dev/challenge/batchfactory) · 📖 [Read Solution Guide](https://cloudchallenges.hyperoot.dev/challenge/batchfactory/solution)
 
 ## Architecture
 
-```shell
-![Architecture](./path/to/diagram)
-```
+![Architecture](./assets/batchfactory.svg)
 
 ## Your Work Area
 
@@ -18,8 +16,6 @@ This starter is structured so you can focus only on the parts required for solvi
 You will primarily work inside:
 
 ```shell
-├── src/                  # Application / service code
-├── terraform/            # Infrastructure as Code
 └── samples/              # Input and test data
 ```
 
@@ -41,7 +37,7 @@ cd <repo-name>
 
 Once you have your own copy locally, choose one of the two paths below.
 
-### **Option 1: Use Dev Container (Recommended — Easiest)**
+### **Option 1: Use Dev Container (Recommended - Easiest)**
 
 This is the simplest and most reliable setup.
 All tools are installed automatically, and setup scripts run without you touching anything.
@@ -56,8 +52,8 @@ All tools are installed automatically, and setup scripts run without you touchin
 
 1. Open the repository folder in VS Code
 2. VS Code will detect `.devcontainer/`
-3. Select **“Reopen in Container”** when prompted
-4. The development environment is ready — no scripts required
+3. Select **"Reopen in Container"** when prompted
+4. The development environment is ready - no scripts required
 
 **Important:**
 
@@ -100,16 +96,6 @@ If using Mise:
 
 This ensures tool versions, environment variables, and hooks are loaded.
 
-#### 3. Start implementing your solution
-
-Place your implementation in:
-
-- `src/`
-- `terraform/`
-- `samples/`
-
----
-
 > Everything below is optional technical support content
 
 ## Repository Structure
@@ -125,46 +111,17 @@ Place your implementation in:
 
 ## Explanation of Other Files
 
-These files support development workflows and quality, but are not part of the challenge.
+These files support development workflows but are not required for deploying or testing the solution.
 
-- **`.devcontainer/`**
-  Provides a reproducible development environment inside VS Code.
-  Reference: [https://containers.dev](https://containers.dev)
+- **`.devcontainer/`** → Reproducible VS Code development environment → [https://containers.dev](https://containers.dev)
 
-- **`.pre-commit-config.yaml`**
-  Runs formatting, linting, and validation checks before commits.
-  Reference: [https://pre-commit.com](https://pre-commit.com)
+- **`.pre-commit-config.yaml`** → Ensures formatting, linting, static checks → [https://pre-commit.com](https://pre-commit.com)
 
-- **`.github/`**
-  Contains repo automation:
+- **`.github/`** → Contains issue templates, PR templates, CODEOWNERS, and workflow automation → [https://docs.github.com/repositories](https://docs.github.com/repositories)
 
-  - Issue templates
-  - Pull request templates
-  - CODEOWNERS
-  - Optional CI workflows
-    Reference: [https://docs.github.com/repositories](https://docs.github.com/repositories)
+- **`mise.toml`** → Defines the toolchain versions required for this solution → [https://mise.jdx.dev](https://mise.jdx.dev)
 
-- **`mise.toml`**
-  Defines tools and versions required for the project.
-  Automatically handled by Mise.
-  Reference: [https://mise.jdx.dev](https://mise.jdx.dev)
-
-- **`scripts/`**
-  Includes helper scripts for setup and environment preparation
-  (you normally don’t need these when using Dev Containers).
-
-- **`docs/`**
-  Supplemental notes not required for the challenge.
-
-## References (Optional)
-
-If you want to explore deeper:
-
-- Dev Containers → [https://containers.dev](https://containers.dev)
-- Mise Tool → [https://mise.jdx.dev](https://mise.jdx.dev)
-- Pre-Commit Hooks → [https://pre-commit.com](https://pre-commit.com)
-- GitHub Repository Docs → [https://docs.github.com/repositories](https://docs.github.com/repositories)
-- Bash manual → [https://www.gnu.org/software/bash/manual/](https://www.gnu.org/software/bash/manual/)
+- **`scripts/`** → Helper scripts
 
 ## License
 
@@ -174,4 +131,4 @@ See [LICENSE](./LICENSE) for details.
 
 If you find this helpful, consider supporting my work ❤️
 
-[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge\&logo=github)](https://github.com/sponsors/{{your-username}})
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?style=for-the-badge\&logo=github)](https://github.com/sponsors/HYP3R00T)
