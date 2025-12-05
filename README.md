@@ -1,7 +1,6 @@
-# Starter Template
+# Batch Factory
 
-A foundational scaffold for the **Challenge Title** challenge.
-Use this repository to build your implementation from scratch.
+A foundational scaffold for the BatchFactory challenge. Use this repository to build your implementation from scratch.
 
 📋 [View Challenge](https://cloudchallenges.hyperoot.dev/challenge/batchfactory) · 📖 [Read Solution Guide](https://cloudchallenges.hyperoot.dev/challenge/batchfactory/solution)
 
@@ -13,8 +12,6 @@ Use this repository to build your implementation from scratch.
 
 This starter is structured so you can focus only on the parts required for solving the challenge.
 
-You will primarily work inside:
-
 ```shell
 └── samples/              # Input and test data
 ```
@@ -22,12 +19,10 @@ You will primarily work inside:
 You may create additional folders as needed for your solution.
 
 Everything else in this repository exists only to support development, collaboration, and tooling.
-If you stick to these directories, you will be able to complete the challenge successfully.
 
 ## Getting Started
 
-Before doing anything else, **fork this repository**.
-This ensures you have full control of your own workspace and can push commits freely.
+Before doing anything else, **fork this repository**. This ensures you have full control of your own workspace and can push commits freely.
 
 ```shell
 # After pressing Fork on GitHub:
